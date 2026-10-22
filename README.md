@@ -47,8 +47,8 @@ The name **Nazúŋspe** is a Lakota word for *axe* — a fitting name for a prin
 - [x] Integrate the independent X carriages and CAN toolhead electronics
 - [x] Resolve motor wiring/pinout differences and verify axis motion
 - [x] Establish initial physical X-bed-edge reference measurements
-- [ ] Finalize X homing positions and travel limits for both carriages
-- [ ] Calibrate toolhead offsets using the actual nozzle positions
+- [x ] Finalize X homing positions and travel limits for both carriages
+- [x ] Calibrate toolhead offsets using the actual nozzle positions
 - [ ] Complete remaining motion, bed and extrusion calibration
 - [ ] Validate printing and IDEX operation
 
