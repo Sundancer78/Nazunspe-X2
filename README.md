@@ -1,3 +1,5 @@
+
+![banner picture](images/web/banner_picture.png)
 # NAZÚŊSPE X2 🪓
 
 **Tenlog TL-D3 Pro Klipper Conversion by sun Dancer | Custom IDEX Rebuild | BTT Manta M8P V2.0 | Dual CAN Bus Toolheads**
