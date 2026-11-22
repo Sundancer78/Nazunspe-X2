@@ -29,60 +29,60 @@
 - [x ] Check repeatability over multiple homing cycles
 
 ## 4. IDEX Base Configuration
-- [ ] Verify `[dual_carriage]` and `safe_distance`
-- [ ] Assign T0 and T1 correctly
-- [ ] Define parking positions for both carriages
-- [ ] Test T0/T1 tool changes without extrusion
-- [ ] Verify collision-free motion sequences
+- [x ] Verify `[dual_carriage]` and `safe_distance`
+- [x ] Assign T0 and T1 correctly
+- [x ] Define parking positions for both carriages
+- [x ] Test T0/T1 tool changes without extrusion
+- [x ] Verify collision-free motion sequences
 
 ## 5. Print Bed and Z Reference
-- [ ] Heat the bed to operating temperature
-- [ ] Level the bed mechanically
-- [ ] Set the Z reference for T0
-- [ ] Determine the T0/T1 nozzle height offset
-- [ ] Verify the first layer independently for both toolheads
+- [x ] Heat the bed to operating temperature
+- [x ] Level the bed mechanically
+- [x ] Set the Z reference for T0
+- [x ] Determine the T0/T1 nozzle height offset
+- [x ] Verify the first layer independently for both toolheads
 
 ## 6. Extruders and Hotends
-- [ ] Check extruder motors and feed directions
-- [ ] Calibrate `rotation_distance` for both extruders
-- [ ] PID-tune both hotends
-- [ ] Verify filament feed and nozzle diameters
-- [ ] Test extrusion and retraction behavior
+- [x ] Check extruder motors and feed directions
+- [x ] Calibrate `rotation_distance` for both extruders
+- [x] PID-tune both hotends
+- [x ] Verify filament feed and nozzle diameters
+- [x ] Test extrusion and retraction behavior
 
 ## 7. Part Cooling
-- [ ] Verify BERD-Air control and pump output
-- [ ] Check airflow distribution around both nozzles
-- [ ] Create PLA and PETG cooling profiles
-- [ ] Monitor overcooling and warping
-- [ ] Tune cooling for overhangs and bridges
+- [x ] Verify BERD-Air control and pump output
+- [x ] Check airflow distribution around both nozzles
+- [x ] Create PLA and PETG cooling profiles
+- [x ] Monitor overcooling and warping
+- [x ] Tune cooling for overhangs and bridges
 
 ## 8. Motion and Extrusion Calibration
-- [ ] Check dimensional accuracy with calibration cubes
-- [ ] Investigate vibrations and mechanical play
-- [ ] Tune Input Shaper using measurements or test prints
-- [ ] Calibrate Pressure Advance per extruder and material
-- [ ] Gradually optimize speeds and accelerations
+- [x] Check dimensional accuracy with calibration cubes
+- [x ] Investigate vibrations and mechanical play
+- [x ] Tune Input Shaper using measurements or test prints
+- [x] Calibrate Pressure Advance per extruder and material
+- [x] Gradually optimize speeds and accelerations
 
 ## 9. Slicer Setup
-- [ ] Create an IDEX printer profile with two extruders
-- [ ] Configure tool assignments and nozzle offsets
-- [ ] Set start, end, and tool-change G-code
-- [ ] Create material profiles for both extruders
-- [ ] Configure purge lines, skirt, and prime tower if needed
+- [x ] Create an IDEX printer profile with two extruders
+- [x ] Configure tool assignments and nozzle offsets
+- [x ] Set start, end, and tool-change G-code
+- [x ] Create material profiles for both extruders
+- [x ] Configure purge lines, skirt, and prime tower if needed
 
 ## 10. Start, End, and Tool-Change Macros
-- [ ] Configure `START_PRINT` for both extruders
-- [ ] Test T0/T1 macros, including parking and activation
-- [ ] Configure standby temperatures and retract/prime behavior
-- [ ] Add purge lines for both tools
-- [ ] Verify `END_PRINT`, carriage parking, and shutdown
+- [x ] Configure `START_PRINT` for both extruders
+- [x ] Test T0/T1 macros, including parking and activation
+- [x ] Configure standby temperatures and retract/prime behavior
+- [x ] Add purge lines for both tools
+- [x ] Verify `END_PRINT`, carriage parking, and shutdown
 
 ## 11. Single-Material Test Prints
-- [ ] Print a first-layer test using T0
-- [ ] Print a first-layer test using T1
-- [ ] Print calibration cubes separately with both extruders
-- [ ] Check adhesion, warping, and surface quality
-- [ ] Document working settings
+- [x ] Print a first-layer test using T0
+- [x] Print a first-layer test using T1
+- [x ] Print calibration cubes separately with both extruders
+- [x ] Check adhesion, warping, and surface quality
+- [x ] Document working settings
 
 ## 12. Dual-Material IDEX Printing
 - [ ] Prepare both materials

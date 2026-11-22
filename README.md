@@ -52,7 +52,7 @@ The name **Nazúŋspe** is a Lakota word for *axe* — a fitting name for a prin
 - [x ] Finalize X homing positions and travel limits for both carriages
 - [x ] Calibrate toolhead offsets using the actual nozzle positions
 - [X ] Complete remaining motion, bed and extrusion calibration
-- [ ] Validate printing and IDEX operation
+- [X ] Validate printing and IDEX operation
 
 The checklist is a progress snapshot, not a guarantee that completed subsystems are ready for unattended printing.
 

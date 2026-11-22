@@ -29,60 +29,60 @@
 - [x ] Wiederholgenauigkeit über mehrere Homing-Vorgänge kontrollieren
 
 ## 4. IDEX-Grundkonfiguration
-- [ ] `[dual_carriage]` und `safe_distance` kontrollieren
-- [ ] T0 und T1 korrekt zuordnen
-- [ ] Parkpositionen beider Schlitten festlegen
-- [ ] Werkzeugwechsel T0/T1 ohne Extrusion testen
-- [ ] Kollisionsfreie Bewegungsabläufe überprüfen
+- [X ] `[dual_carriage]` und `safe_distance` kontrollieren
+- [X ] T0 und T1 korrekt zuordnen
+- [X ] Parkpositionen beider Schlitten festlegen
+- [X ] Werkzeugwechsel T0/T1 ohne Extrusion testen
+- [X ] Kollisionsfreie Bewegungsabläufe überprüfen
 
 ## 5. Druckbett und Z-Referenz
-- [ ] Druckbett auf Betriebstemperatur bringen
-- [ ] Bett mechanisch ausrichten
-- [ ] Z-Nullpunkt für T0 festlegen
-- [ ] Düsenhöhenversatz T0/T1 ermitteln
-- [ ] Erste Schicht beider Toolheads separat überprüfen
+- [X ] Druckbett auf Betriebstemperatur bringen
+- [X ] Bett mechanisch ausrichten
+- [X ] Z-Nullpunkt für T0 festlegen
+- [X ] Düsenhöhenversatz T0/T1 ermitteln
+- [X ] Erste Schicht beider Toolheads separat überprüfen
 
 ## 6. Extruder und Hotends
-- [ ] Extrudermotoren und Förderrichtung prüfen
-- [ ] `rotation_distance` beider Extruder kalibrieren
-- [ ] PID-Regelung beider Hotends kalibrieren
-- [ ] Materialförderung und Düsendurchmesser prüfen
-- [ ] Extrusions- und Retraktionsverhalten testen
+- [X ] Extrudermotoren und Förderrichtung prüfen
+- [x ] `rotation_distance` beider Extruder kalibrieren
+- [x ] PID-Regelung beider Hotends kalibrieren
+- [x ] Materialförderung und Düsendurchmesser prüfen
+- [x ] Extrusions- und Retraktionsverhalten testen
 
 ## 7. Bauteilkühlung
-- [ ] BERD-Air-Steuerung und Pumpenleistung prüfen
-- [ ] Luftverteilung beider Düsen prüfen
-- [ ] PLA- und PETG-Kühlprofile anlegen
-- [ ] Überkühlung und Warping beobachten
-- [ ] Kühlung für Überhänge und Brücken optimieren
+- [x ] BERD-Air-Steuerung und Pumpenleistung prüfen
+- [x ] Luftverteilung beider Düsen prüfen
+- [x ] PLA- und PETG-Kühlprofile anlegen
+- [x ] Überkühlung und Warping beobachten
+- [x ] Kühlung für Überhänge und Brücken optimieren
 
 ## 8. Bewegungs- und Extrusionskalibrierung
-- [ ] Testwürfel auf Maßhaltigkeit prüfen
-- [ ] Schwingungen und mechanisches Spiel untersuchen
-- [ ] Input Shaper messen oder mit Testdrucken einstellen
-- [ ] Pressure Advance je Extruder und Material kalibrieren
-- [ ] Geschwindigkeit und Beschleunigung schrittweise optimieren
+- [x ] Testwürfel auf Maßhaltigkeit prüfen
+- [x ] Schwingungen und mechanisches Spiel untersuchen
+- [x ] Input Shaper messen oder mit Testdrucken einstellen
+- [x ] Pressure Advance je Extruder und Material kalibrieren
+- [x ] Geschwindigkeit und Beschleunigung schrittweise optimieren
 
 ## 9. Slicer einrichten
-- [ ] IDEX-Druckerprofil mit zwei Extrudern erstellen
-- [ ] Werkzeugzuordnung und Düsenabstände einstellen
-- [ ] Start-, End- und Werkzeugwechsel-G-Code festlegen
-- [ ] Materialprofile für beide Extruder erstellen
-- [ ] Purge-Line, Skirt und ggf. Prime-Tower konfigurieren
+- [x ] IDEX-Druckerprofil mit zwei Extrudern erstellen
+- [x ] Werkzeugzuordnung und Düsenabstände einstellen
+- [x ] Start-, End- und Werkzeugwechsel-G-Code festlegen
+- [x ] Materialprofile für beide Extruder erstellen
+- [x] Purge-Line, Skirt und ggf. Prime-Tower konfigurieren
 
 ## 10. Start-, End- und Wechselmakros
-- [ ] `START_PRINT` für beide Extruder einrichten
-- [ ] T0/T1-Makros einschließlich Parken und Aktivierung testen
-- [ ] Standby-Temperaturen und Retract/Prime konfigurieren
-- [ ] Purge-Line für beide Werkzeuge integrieren
-- [ ] `END_PRINT` mit Parkpositionen und Abschaltung prüfen
+- [x ] `START_PRINT` für beide Extruder einrichten
+- [x ] T0/T1-Makros einschließlich Parken und Aktivierung testen
+- [x ] Standby-Temperaturen und Retract/Prime konfigurieren
+- [x ] Purge-Line für beide Werkzeuge integrieren
+- [x ] `END_PRINT` mit Parkpositionen und Abschaltung prüfen
 
 ## 11. Einzelmaterial-Testdrucke
-- [ ] First-Layer-Test mit T0 drucken
-- [ ] First-Layer-Test mit T1 drucken
-- [ ] Kalibrierwürfel mit beiden Extrudern separat drucken
-- [ ] Haftung, Warping und Oberflächenqualität prüfen
-- [ ] Funktionierende Einstellungen dokumentieren
+- [x ] First-Layer-Test mit T0 drucken
+- [x ] First-Layer-Test mit T1 drucken
+- [x ] Kalibrierwürfel mit beiden Extrudern separat drucken
+- [x ] Haftung, Warping und Oberflächenqualität prüfen
+- [x ] Funktionierende Einstellungen dokumentieren
 
 ## 12. Zweimaterial-IDEX-Druck
 - [ ] Beide Materialien vorbereiten
